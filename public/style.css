@@ -1,0 +1,9 @@
+body {
+  font-family: system-ui;
+  padding: 56px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
