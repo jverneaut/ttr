@@ -1,6 +1,6 @@
 echo "Copying files to droplet..."
 
-rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR root@207.154.227.133:/var/www/ttr
+rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR root@207.154.227.133:/var/www
 
 echo "Copying files to droplet: OK"
 
