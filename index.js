@@ -13,6 +13,12 @@ app.get('/api', (req, res) => {
   });
 });
 
+app.get('/time', (req, res) => {
+  res.json({
+    time: Date.now()
+  });
+});
+
 const port = process.env.PORT || 3000;
 app.listen(port);
 
